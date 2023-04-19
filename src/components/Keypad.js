@@ -1,8 +1,15 @@
-// Code Keypad Component Here
+// Jais code
 
-function Keypad (){
+function Keypad() {
+
+    function displayChange() {
+        console.log('Entering password...');
+    }
+
     return (
-        <div></div>
+        <div>
+            <input type="password" onChange={displayChange}></input>
+        </div>
     )
 }
 
